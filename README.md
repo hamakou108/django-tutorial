@@ -9,7 +9,7 @@ Clone this repository and run below commands.
 ```
 $ pipenv install
 $ pipenv shell
-$ pipenv manage.py migrate
+$ python manage.py migrate
 ```
 
-Start the development server and visit http://127.0.0.1:8000/.
+Start the development server by ``python manage.py runserver`` and visit http://127.0.0.1:8000/polls/.
